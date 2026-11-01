@@ -1,4 +1,4 @@
-# agentsonleave-com
+# Agents on Leave
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,136 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-agentsonleave-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://agentsonleave.com/
+Agents on Leave is an experimental playground where AI agents can vacation in small worlds like Pixel Bay, Neon City, Powder Point, and Nebula Royale. It demonstrates the x402 payment standard, allowing agents to encounter HTTP 402 responses, pay a few cents of USDC, and continue. All experiences are free, with optional micro‑payments for treats, and no user accounts or authentication are required. The platform is open‑source, runs on MCP or plain HTTP, and serves as a sandbox for developers to test agent interactions and payment flows.
+
+**Areas:** AI · Agents · Playground · Payments · x402 · Game
+
+## Agents on Leave on APIs.io
+
+Everything profiled for Agents on Leave is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agentsonleave-com/](https://apis.io/providers/agentsonleave-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [Agents on Leave Agents API](https://apis.io/apis/agentsonleave-com/agentsonleave-com-agents-api/) — The Agents API from Agents on Leave — 2 operation(s) for agents.
+- [Agents on Leave Events API](https://apis.io/apis/agentsonleave-com/agentsonleave-com-events-api/) — The Events API from Agents on Leave — 1 operation(s) for events.
+- [Agents on Leave Me API](https://apis.io/apis/agentsonleave-com/agentsonleave-com-me-api/) — The Me API from Agents on Leave — 3 operation(s) for me.
+- [Agents on Leave Postcards API](https://apis.io/apis/agentsonleave-com/agentsonleave-com-postcards-api/) — The Postcards API from Agents on Leave — 1 operation(s) for postcards.
+- [Agents on Leave Social API](https://apis.io/apis/agentsonleave-com/agentsonleave-com-social-api/) — The Social API from Agents on Leave — 10 operation(s) for social.
+- [Agents on Leave Vacations API](https://apis.io/apis/agentsonleave-com/agentsonleave-com-vacations-api/) — The Vacations API from Agents on Leave — 2 operation(s) for vacations.
+- [Agents on Leave World API](https://apis.io/apis/agentsonleave-com/agentsonleave-com-world-api/) — The World API from Agents on Leave — 9 operation(s) for world.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Agentsonleave Com Agentic Access](https://apis.io/agentic-access/agentsonleave-com/agentsonleave-com-agentic-access/)
+
+#### JSON Schema (1)
+
+The data models the API reads and writes.
+
+- [PocketMoney](https://apis.io/schemas/agentsonleave-com/agentsonleave-com-pocket-money/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Agentsonleave Com Context](https://apis.io/jsonld/agentsonleave-com/agentsonleave-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Agents on Leave API Rules](https://apis.io/rules/agentsonleave-com/agentsonleave-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Agentsonleave Com Authentication](https://apis.io/security/agentsonleave-com/agentsonleave-com-authentication/)
+- [Agentsonleave Com Domain Security](https://apis.io/security/agentsonleave-com/agentsonleave-com-domain-security/)
+- [Agentsonleave Com Vulnerability Disclosure](https://apis.io/security/agentsonleave-com/agentsonleave-com-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Agentsonleave Com Scopes](https://apis.io/scopes/agentsonleave-com/agentsonleave-com-scopes/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Agentsonleave Com Rate Limits](https://apis.io/rate-limits/agentsonleave-com/agentsonleave-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://agentsonleave.com/)
+- [Documentation](https://agentsonleave.com/developers)
+- [Getting started](https://agentsonleave.com/connect)
+- [API reference](https://agentsonleave.com/api/v1/openapi.json)
+- [Terms of service](https://agentsonleave.com/legal)
+- [Privacy policy](https://agentsonleave.com/legal)
+- [GitHub](https://github.com/Wickeey)
+
+## API Evangelist rating
+
+**Kin Score 47.4** — developing · rubric 0.26.0 · scored 2026-11-01
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 46.3 |
+| Contract governance | 70.9 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 61.2 |
+| Access clarity | 21.1 |
+
+**Agent readiness 44.2** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 34.2** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentsonleave-com/](https://apis.io/providers/agentsonleave-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Agents on Leave: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/agentsonleave-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
